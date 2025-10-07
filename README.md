@@ -11,9 +11,9 @@
 
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 3. <br>
-The majority of the exercise writeups can be found [here](https://github.com/BrightBoost/learningjava) (given that the repo is still active) <br>
-within the directory: **exercises \ week 3**. <br>
-The workbook (PDF) containing most of the exercises cannot be uploaded due to Pluralsight ownership rights. <br>
+The workbook (PDF) containing most of the exercises from the week cannot be uploaded due to Pluralsight ownership rights. <br>
+The instructor's versions of these workbook exercises can be found [here](https://github.com/BrightBoost/learningjava/tree/main/src/main/java/com/pluralsight/week3) (given that the repo is still active) <br>
+Last I had checked (10/07/2025), there was NOT a directory created for extra exercises (which would have been within: **exercises \ week 3**). <br>
 
 #### *Topics covered include:*<br>
 -In Progress-
@@ -35,4 +35,4 @@ OpenAI. (2025). ChatGPT (Oct 1 version) [Large language model]. https://chatgpt.
 
 *I have to give credit where it's due, right?* <br>
 
-**Last Edited: 10/07/2025**
+**Last Edited: 10/08/2025**
