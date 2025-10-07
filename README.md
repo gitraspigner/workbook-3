@@ -23,6 +23,8 @@ The workbook (PDF) containing most of the exercises cannot be uploaded due to Pl
 
 ### 💭 My Thoughts
 -In Progress-
+The first commit for each repo should just include the project config files. The second commit should include the inital project code file(s). <br>
+I made a mistake in this repo by including them both in the same inital commit, so I'll have to be careful not to make it again.
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
