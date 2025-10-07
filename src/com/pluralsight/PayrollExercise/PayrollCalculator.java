@@ -1,8 +1,7 @@
 package com.pluralsight.PayrollExercise;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 /**
  * Displays information for employees based off of a .csv file.
@@ -12,10 +11,13 @@ import java.io.IOException;
  * @author Ravi Spigner
  */
 public class PayrollCalculator {
-    private final static String filePathAndName = "DataFiles/employees.csv";
+    //private final static String filePathAndName = "DataFiles/employees.csv";
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        displayEmployees(readFile(filePathAndName));
+        writeEmployees(readFile(getFileReadName()), getFileWriteName());
+        //displayEmployees(readFile(filePathAndName));
+        scanner.close();
     }
 
     public static Employee[] readFile (String filePathAndName) {
@@ -29,6 +31,7 @@ public class PayrollCalculator {
             while(bufferedReader.readLine() != null) {
                 numberOfEmployees++;
             }
+            //line below is mainly for debug but I'm including it
             System.out.println("Number of Employees/Lines in file: " + numberOfEmployees);
             bufferedReader.close();
         } catch(IOException e) {
@@ -54,6 +57,32 @@ public class PayrollCalculator {
             e.printStackTrace();
         }
         return employees;
+    }
+
+    public static String getFileReadName() {
+        System.out.print("Enter the name of the employee file to process: ");
+        return "DataFiles/"+scanner.nextLine();
+    }
+
+    public static String getFileWriteName() {
+        System.out.print("Enter the name of the payroll file to create: ");
+        return "DataFiles/"+scanner.nextLine();
+    }
+
+    public static void writeEmployees(Employee[] employees, String fileWriteName) {
+        try {
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileWriteName));
+            String line;
+            for(int i = 0; i < employees.length; i++) {
+                line = String.format("Employee ID: %d, Employee Name: %s, Employee's Gross Pay: $%.2f.%n",
+                        employees[i].getEmployeeID(), employees[i].getName(),
+                        employees[i].getGrossPay());
+                bufferedWriter.write(line);
+            }
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void displayEmployees(Employee[] employees) {
