@@ -23,8 +23,11 @@ The workbook (PDF) containing most of the exercises cannot be uploaded due to Pl
 
 ### 💭 My Thoughts
 -In Progress- <br>
-The first commit for each repo should just include the project config files. The second commit should include the inital project code file(s). <br>
+- The first commit for each repo should just include the project config files. The second commit should include the inital project code file(s). <br>
 I made a mistake in this repo by including them both in the same inital commit, so I'll have to be careful not to make it again.
+- Instead of using "Adding", "Updating", etc for the verbiage of my commits, I'd prefer to start using "Add", "Update", etc to match what Github shows me by default when adding commits to my README files. <br>
+I think this will prepare me to use more uniform language which many other professionals have adapted to using (I think).
+- 
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
@@ -32,4 +35,4 @@ OpenAI. (2025). ChatGPT (Oct 1 version) [Large language model]. https://chatgpt.
 
 *I have to give credit where it's due, right?* <br>
 
-**Last Edited: 10/01/2025**
+**Last Edited: 10/07/2025**
