@@ -7,7 +7,7 @@
 
 | Active/Inactive | Active Dates |
 | --- | --- |
-| ![Status](https://img.shields.io/badge/status-active-brightgreen) | 10/06/2025 - XX/XX/XXXX|
+| ![Status](https://img.shields.io/badge/status-inactive-lightgrey) | 10/06/2025 - 10/09/2025|
 
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 3. <br>
@@ -16,18 +16,26 @@ The instructor's versions of these workbook exercise solutions can be found [her
 Last I had checked (10/07/2025), there was NOT a directory created for extra exercises (which would have been within: **exercises \ week 3**). <br>
 
 #### *Topics covered include:*<br>
--In Progress-
+- File I/O
+  - BufferedReader Class
+  - BufferedWriter Class
+- Dates
+  - DateTimeFormatter Class
+  - LocalDateTime Class
+- Collections
+  - ArrayList Class
+  - HashMap Class
+  
 
 ### 🕒 Commits History Here
 [Click Here](https://github.com/gitraspigner/workbook-3/commits/master)
 
 ### 💭 My Thoughts
--In Progress- <br>
 - The first commit for each repo should just include the project config files. The second commit should include the inital project code file(s). <br>
 I made a mistake in this repo by including them both in the same inital commit, so I'll have to be careful not to make it again.
-- Instead of using "Adding", "Updating", etc for the verbiage of my commits, I'd prefer to start using "Add", "Update", etc to match what Github shows me by default when adding commits to my README files. <br>
+- Instead of using "Adding", "Updating", etc for the verbiage of my commits, I'd prefer to start using "Add", "Update", etc to match what IntelliJ/Github shows me by default when adding commits to my README files. <br>
 I think this will prepare me to use more uniform language which many other professionals have adapted to using (I think).
-- 
+- This week provided good reminders and practice for using & formatting dates. It was useful to review the syntax for DateTimeFormatter so that I have a better idea of it and also of the capabilities of the class.
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
@@ -35,4 +43,4 @@ OpenAI. (2025). ChatGPT (Oct 1 version) [Large language model]. https://chatgpt.
 
 *I have to give credit where it's due, right?* <br>
 
-**Last Edited: 10/08/2025**
+**Last Edited: 10/09/2025**
