@@ -12,7 +12,7 @@
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 3. <br>
 The workbook (PDF) containing most of the exercises from the week cannot be uploaded due to Pluralsight ownership rights. <br>
-The instructor's versions of these workbook exercise solutions can be found [here](https://github.com/BrightBoost/learningjava/tree/main/src/main/java/com/pluralsight/week3) (given that the repo is still active) <br>
+The instructor's versions of these workbook exercise solutions can be found [here](https://github.com/BrightBoost/learningjava/tree/main/src/main/java/com/pluralsight/week3) (given that the repo is still active). <br>
 Last I had checked (10/07/2025), there was NOT a directory created for extra exercises (which would have been within: **exercises \ week 3**). <br>
 
 #### *Topics covered include:*<br>
